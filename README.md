@@ -1,5 +1,5 @@
 # AC Relay
-![Version](https://img.shields.io/badge/version-v2.1-orange.svg)
+![Version](https://img.shields.io/badge/version-v3-orange.svg)
 
 It is a relay controlled by an ESP8266 and a push button. It is powered by the main AC.
 
