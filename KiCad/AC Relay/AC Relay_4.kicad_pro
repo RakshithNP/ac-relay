@@ -463,8 +463,7 @@
       "Rak_FP_Library"
     ],
     "pinned_symbol_libs": [
-      "Rak_sym_Libr",
-      "Rak_sym_Library"
+      "Rak_sym_Libr"
     ]
   },
   "meta": {
