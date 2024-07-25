@@ -11,19 +11,61 @@
 		(comment 1 "Designed by Raksh")
 	)
 	(lib_symbols)
+	(junction
+		(at 85.09 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c47bd7f-af12-4aaa-8f29-f9ba1f56b50c")
+	)
+	(junction
+		(at 69.85 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f1053ce-eccc-4db7-9bb4-cfa1c6fdd7a8")
+	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 111.76 59.69)
+			(xy 85.09 81.28) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee6814c-fe5c-4e3b-a19c-0f13fb284199")
+		(uuid "11e6f12c-dc85-46a1-84ee-74a132e35c87")
 	)
 	(wire
 		(pts
-			(xy 68.58 55.88) (xy 63.5 55.88)
+			(xy 69.85 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb8012a-ddde-49dd-bab1-005e4c045435")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 85.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2368f8a4-c0fd-4073-b410-37cadaafa7bb")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2eb6c1-692e-46c4-9634-10c03888d91e")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -33,53 +75,123 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 66.04) (xy 111.76 66.04)
+			(xy 101.6 46.99) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dbdb0e6-a52c-4be6-8910-d857e67d98cc")
+		(uuid "71e30d7e-8ab7-4e89-937e-478f24a5880c")
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 111.76 57.15)
+			(xy 121.92 53.34) (xy 101.6 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d9fc294-bf4b-4ca2-bc4b-b39b679b01b6")
+		(uuid "84907dff-8d6f-4e5f-b79f-dad2e7392c64")
 	)
 	(wire
 		(pts
-			(xy 74.93 66.04) (xy 68.58 66.04)
+			(xy 69.85 77.47) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce7c490-c06d-49c2-9184-e1facb36a4e4")
+		(uuid "85724f39-6f76-4945-8d8f-4061b824ac7c")
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 68.58 55.88)
+			(xy 134.62 67.31) (xy 134.62 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a261094d-1c4e-4ad5-802c-64ef80e38287")
+		(uuid "8bb85002-eb2c-4e44-a29a-f1748b19761a")
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 111.76 63.5)
+			(xy 85.09 81.28) (xy 137.16 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd307571-32cb-4cbc-98d6-ff50d5bca04c")
+		(uuid "8fb307c5-c000-457d-90d0-6e4f3e95067e")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ba96fb-8928-416b-a47b-de48925bfbdb")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 63.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98018663-1059-46fa-a105-9bfcb638d31d")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 121.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d011884-a33d-4f82-b579-ea8bdd9a8eda")
+	)
+	(wire
+		(pts
+			(xy 121.92 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebf85d2-de6e-47a7-b6c1-4d0cbbb67f70")
+	)
+	(wire
+		(pts
+			(xy 82.55 77.47) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0525896-0bb4-492c-9efe-a2f96b669d46")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 137.16 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf1adeb-fd63-4576-9972-596b7c499958")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75ae671-09f3-4c61-9df0-f3a1c9a96f54")
 	)
 	(sheet
 		(at 30.48 38.1)
@@ -121,15 +233,35 @@
 			)
 			(uuid "3e508ca4-31a0-43d9-af70-80b8e17111a4")
 		)
-		(pin "Neutral" input
-			(at 63.5 59.69 0)
+		(pin "3.3V DC suppely" output
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "735f8739-f2e1-4a1e-8834-f66d729c2dc5")
+			(uuid "d35565fd-70df-42c0-a082-dcc220e9400e")
+		)
+		(pin "5V DC suppely" output
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e9c685e-9037-4bbd-94ac-680f26ad5a44")
+		)
+		(pin "Gnd DC suppely" output
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7117013-a557-4507-be6f-fab27ae83242")
 		)
 		(instances
 			(project "AC Relay"
@@ -140,8 +272,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 49.53)
-		(size 20.32 21.59)
+		(at 74.93 39.37)
+		(size 26.67 36.83)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -152,7 +284,7 @@
 		)
 		(uuid "549a003a-5ad1-4e1d-a424-741fce4d057b")
 		(property "Sheetname" "Relay and diver"
-			(at 74.93 48.8184 0)
+			(at 74.93 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "Relays.kicad_sch"
-			(at 74.93 71.7046 0)
+			(at 74.93 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +302,7 @@
 			)
 		)
 		(pin "Rel_sig2" input
-			(at 95.25 59.69 0)
+			(at 101.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,7 +312,7 @@
 			(uuid "c9f788bf-d24c-4809-a9f7-089aed2aafde")
 		)
 		(pin "Phase" input
-			(at 74.93 66.04 180)
+			(at 74.93 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -190,7 +322,7 @@
 			(uuid "2b79858a-5182-432d-aabb-710777028f66")
 		)
 		(pin "Rel_sig3" input
-			(at 95.25 63.5 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +332,7 @@
 			(uuid "e70124b9-2e3a-4f35-9a2d-c4ee43fa7e4f")
 		)
 		(pin "Rel_sig1" input
-			(at 95.25 57.15 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -210,7 +342,7 @@
 			(uuid "f5d94884-7a5d-4001-bb53-03b428545091")
 		)
 		(pin "Rel_sig4" input
-			(at 95.25 66.04 0)
+			(at 101.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,6 +350,26 @@
 				(justify right)
 			)
 			(uuid "4b1c7c13-67f8-4d60-9094-25e538ed5dd6")
+		)
+		(pin "5V DC suppely Input" input
+			(at 82.55 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6447dde7-5594-45cd-ad09-bb25991a96c8")
+		)
+		(pin "Gnd DC suppely Input" input
+			(at 85.09 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbdab007-bd01-4d82-97be-e55ddf94b533")
 		)
 		(instances
 			(project "AC Relay"
@@ -228,7 +380,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 48.26)
+		(at 121.92 36.83)
 		(size 20.32 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -240,7 +392,7 @@
 		)
 		(uuid "bb629db4-3d45-4c18-8869-eaa8d17c5a39")
 		(property "Sheetname" "microcontroller"
-			(at 111.76 47.5484 0)
+			(at 121.92 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,7 +401,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 111.76 76.7846 0)
+			(at 121.92 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,45 +409,75 @@
 				(justify left top)
 			)
 		)
-		(pin "Rel_driv2" input
-			(at 111.76 59.69 180)
+		(pin "5V DC suppely Input" input
+			(at 134.62 64.77 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f1d9741-f819-4e61-918b-c212ae1cc9cf")
+			(uuid "fbb5caba-4f40-4ac9-9e6f-aa0a4a452e3e")
 		)
-		(pin "Rel_driv3" input
-			(at 111.76 63.5 180)
+		(pin "Gnd DC suppely Input" input
+			(at 137.16 64.77 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dbf8c99e-e35c-4cf9-9130-9640937c59ff")
+			(uuid "b57b6d67-afbb-457c-863e-0105271dc359")
 		)
-		(pin "Rel_driv1" input
-			(at 111.76 57.15 180)
+		(pin "3.3V DC suppely Input" input
+			(at 139.7 64.77 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c0104f42-9b9f-495d-94a4-10d686781d6e")
+			(uuid "dec5c33a-aae9-4dad-b916-19dca1c8f431")
 		)
-		(pin "Rel_driv4" input
-			(at 111.76 66.04 180)
+		(pin "Rel_driv3" output
+			(at 121.92 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9bde96c5-4348-4db0-ad4c-5586e3d63b37")
+			(uuid "24adad12-8376-4901-8de6-09300deccd61")
+		)
+		(pin "Rel_driv1" output
+			(at 121.92 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8ee7bd1-2ad9-40da-aaa6-8b5cad2caa74")
+		)
+		(pin "Rel_driv4" output
+			(at 121.92 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc5bc3aa-f450-42e8-a4a5-761981bac26c")
+		)
+		(pin "Rel_driv2" output
+			(at 121.92 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "392fe469-8b56-471c-92ba-8186fef7b049")
 		)
 		(instances
 			(project "AC Relay"

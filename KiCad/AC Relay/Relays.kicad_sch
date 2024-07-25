@@ -1381,6 +1381,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 39.37) (xy 204.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ce27e8-3a83-428c-9f33-ce94fcd07a34")
+	)
+	(wire
+		(pts
 			(xy 34.29 60.96) (xy 41.91 60.96)
 		)
 		(stroke
@@ -1428,6 +1438,16 @@
 			(type default)
 		)
 		(uuid "3bb7b0aa-1ec2-49c4-bf31-948d2454b8d2")
+	)
+	(wire
+		(pts
+			(xy 204.47 39.37) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c87417b-4134-4d57-9f0e-cd15f99e6536")
 	)
 	(polyline
 		(pts
@@ -1508,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "58a2866b-bad9-454a-a925-611d4cfeb474")
+	)
+	(wire
+		(pts
+			(xy 205.74 29.21) (xy 205.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cb637e-e3b4-4e80-961c-42353dc1d6de")
 	)
 	(wire
 		(pts
@@ -2019,6 +2049,16 @@
 		)
 		(uuid "f2edebb0-3533-464f-b36b-9f5f1467fca7")
 	)
+	(wire
+		(pts
+			(xy 205.74 29.21) (xy 210.82 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f306e8b0-7fe6-4322-907d-517153513509")
+	)
 	(polyline
 		(pts
 			(xy 80.01 81.28) (xy 21.59 81.28)
@@ -2157,6 +2197,18 @@
 		)
 		(uuid "17d29faf-124b-4ec6-9c99-47e5d7ca247d")
 	)
+	(hierarchical_label "Gnd DC suppely Input"
+		(shape input)
+		(at 209.55 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d5d8679-1ac8-477a-b466-f21ee8ea4a85")
+	)
 	(hierarchical_label "Phase"
 		(shape input)
 		(at 139.7 124.46 270)
@@ -2228,6 +2280,18 @@
 			(justify right)
 		)
 		(uuid "e2d9f50e-27d7-4033-a559-df1da9f62f0b")
+	)
+	(hierarchical_label "5V DC suppely Input"
+		(shape input)
+		(at 210.82 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea642e2b-9cb6-4abe-ac2e-82d969fe91e0")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -4949,6 +5013,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "935166ed-6fe1-4b9b-b244-02769c7c6e28")
+		(property "Reference" "#PWR041"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.597 45.0342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c18844b8-8806-459f-9579-75d336f69f9f")
+		)
+		(instances
+			(project "AC Relay"
+				(path "/fb13741d-37d5-4c22-9791-0e2ba86035f2/549a003a-5ad1-4e1d-a424-741fce4d057b"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NMOS_GDSD")
 		(at 114.3 134.62 0)
 		(unit 1)
@@ -5952,6 +6081,71 @@
 			(project "AC Relay"
 				(path "/fb13741d-37d5-4c22-9791-0e2ba86035f2/549a003a-5ad1-4e1d-a424-741fce4d057b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0c9abfb-90e8-428e-b475-40072c792cc3")
+		(property "Reference" "#PWR040"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 206.121 23.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d2d52a-9a67-491f-af28-b2dabfab539e")
+		)
+		(instances
+			(project "AC Relay"
+				(path "/fb13741d-37d5-4c22-9791-0e2ba86035f2/549a003a-5ad1-4e1d-a424-741fce4d057b"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
