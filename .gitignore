@@ -24,3 +24,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#temp files from kicad while 2 useres are using same system(i.e when commited during file is still open where git is 2nd user)
+*.lck
+
